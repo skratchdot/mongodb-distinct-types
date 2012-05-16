@@ -16,14 +16,19 @@ function to the DBCollection prototype:
 
     // we hope this would return ['bson'] not ['bson','string']
     db.users.distinctTypes('name');
+    
     // should return ['string']
     db.users.distinctTypes('name.first');
+    
     // should return ['string']
     db.users.distinctTypes('address.phone');
+    
     // only search documents that have { 'name.first' : 'Bob' }
     db.users.distinctTypes('address.phone', {'name.first':'Bob'});
+    
     // only search the first 10 documents
     db.users.distinctTypes('address.phone', {}, 10);
+    
     // only search documents 10-15
     db.users.distinctTypes('address.phone', {}, 10, 5);
 
