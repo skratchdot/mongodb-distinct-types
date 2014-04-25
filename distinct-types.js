@@ -5,7 +5,7 @@
  * 
  *      Version: 1.0
  *         Date: April 29, 2012
- *      Project: http://skratchdot.github.com/mongodb-distinct-types/
+ *      Project: http://projects.skratchdot.com/mongodb-distinct-types/
  *  Source Code: https://github.com/skratchdot/mongodb-distinct-types/
  *       Issues: https://github.com/skratchdot/mongodb-distinct-types/issues/
  * Dependencies: MongoDB v1.8+
